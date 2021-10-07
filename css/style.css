@@ -82,14 +82,14 @@ nav a:hover {
   top: -40px;
 }
 
-.skip:focus{
+.skip a:focus{
 /* Requirement 3b code here*/
-position: relative;
+top: 0;
 }
 
 /* Requirement 4 code here*/
 .focus{
-  border: 2px solid;
+  border: 2px solid #000000;
 }
 
 
