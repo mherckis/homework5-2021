@@ -106,6 +106,7 @@ top: 0;
 /* Remainder of requirements here: */
 
 header{
+
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
@@ -113,10 +114,11 @@ header{
   height: 400px; /* Parallax effect */
 
   /* YOUR CODE HERE; */
+  background-image: url('../images/header.jpg');
+  background-repeat: no-repeat;
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
-  background: url('../images/header.jpg');
-  background-repeat: no-repeat;
+
 }
 
 .about-image{
